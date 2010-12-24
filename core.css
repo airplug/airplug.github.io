@@ -1,0 +1,35 @@
+body {
+		margin: 0;
+		background-image: url('background-pixel-gradient.png');
+		background-position: center;
+		background-repeat: repeat-y;
+}
+
+.header-layer {
+		width: 100%;
+		height: 965px; margin-bottom: -965px;
+}
+
+#background-color {
+		background-color: #cee3ea;
+}
+
+#background-sky-gradient {
+		background-image: url('background-sky-gradient.png');
+		background-position: center;
+}
+
+#background-radial-gradient {
+		background-image: url('background-radial-gradient.png');
+		background-position: center;
+    filter:alpha(opacity=20);
+    -moz-opacity:0.2;
+    -khtml-opacity: 0.2;
+    opacity: 0.2;
+}
+
+#airplug-logo {
+		display: block;
+		margin: 77px auto 0 auto;
+		position: relative; /* Ensure displays above background gradients */
+}
